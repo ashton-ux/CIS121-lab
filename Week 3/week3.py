@@ -1,1 +1,7 @@
-t09erit0ewirt0eri0t0irer0it
+number = input("Enter a number: ")
+
+if number > 0:
+    print("Its Positive")
+else:
+    print("Its negative")
+
