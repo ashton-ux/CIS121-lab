@@ -26,6 +26,7 @@ for number in range(37, 1050):
         print(number)
 '''
 #Question 4
+'''
 word = ""
 while True:
     letter = input("Enter a letter or type done: ")
@@ -34,3 +35,14 @@ while True:
     else:
         word += letter
 print(f"The word is {word}")
+'''
+
+#Question 5
+number = 0
+for sum_number in range(50,517,2):
+    if sum_number % 2 == 1:
+        number + sum_number
+print(sum_number)
+
+#question 6
+
