@@ -38,11 +38,18 @@ print(f"The word is {word}")
 '''
 
 #Question 5
+'''
 number = 0
-for sum_number in range(50,517,2):
-    if sum_number % 2 == 1:
-        number + sum_number
-print(sum_number)
-
+for sum_number in range(50,517):
+    if number % 2 == 1:
+        number += sum_number
+print(number)
+'''
 #question 6
-
+total_num = 0
+while True:
+    user_num = int(input("Enter an integer: "))
+    if user_num >= 0:
+        print(user_num + total_num)
+    if user_num < 0:
+        break
