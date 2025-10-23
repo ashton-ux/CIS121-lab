@@ -45,6 +45,8 @@ for sum_number in range(50,517):
         number += sum_number
 print(number)
 '''
+
+'''
 #question 6
 total_num = 0
 while True:
@@ -53,3 +55,20 @@ while True:
         print(user_num + total_num)
     if user_num < 0:
         break
+'''
+
+'''
+def check_letter(letter):
+    vowels = "aeiou"
+    if letter in vowels:
+        return "vowel"
+    else:
+        return "consonant"
+print(check_letter("a"))
+print(check_letter("z"))
+print(check_letter("o"))
+'''
+
+def fruit_ID(fruit, capacity: int):
+    return fruit[:3] + str(capacity)
+print(fruit_ID("Banana", 320))

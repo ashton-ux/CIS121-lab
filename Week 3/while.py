@@ -52,7 +52,9 @@ def product(num1, num2):
 print(product(4,3))
 '''
 
+
 #x = []
+'''
 lyst = ['apple', 'banana', 3, False, 4.5, 'grapes']
 #print(lyst[1])
 #print everyting not a string
@@ -64,7 +66,9 @@ x += "e"
 print(x)
 
 #append(  element  ) will add the element to the end of list
-print(lyst)
-lyst.append(12)
-lyst.insert(2,5) 
-print(lyst)
+'''
+
+phrases = ["To be, ", "or not to be.\n", "That is the question."]
+
+sentence = "".join(phrases)
+print(sentence)

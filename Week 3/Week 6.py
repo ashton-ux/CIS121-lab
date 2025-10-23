@@ -62,8 +62,4 @@ def is_acronym(s, words):
 s = "abc"    
 words = ["alice", "bob", "charlie"]
 
-
-
-
-
-    return True 
+return True 
